@@ -7,10 +7,17 @@ namespace FacilityManagement.App_Domain
 {
     public class Seat
     {
-        private string SeatNumber;
-        private int LaboratoryId;
-        private int ReservationId;
+        public string SeatNumber{set;get;}
+        public int LaboratoryId{set;get;}
+        public int ReservationId{set;get;}
 
+        public Seat() { }
+        public Seat(string _seatNumber,int _laboraatoryId,int _reservationId) {
 
+            this.SeatNumber = _seatNumber;
+            this.LaboratoryId = _laboraatoryId;
+            this.ReservationId = _reservationId;
+        
+        }
     }
 }
