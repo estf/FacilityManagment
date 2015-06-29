@@ -29,14 +29,20 @@ namespace FacilityManagement.App_Domain
 
         public int Capacity
         {
-            get { return id; }
-            set { id = value; }
+            get { return capacity; }
+            set { capacity = value; }
         }
 
-        public int Id
+        public string Type
         {
-            get { return id; }
-            set { id = value; }
+            get { return type; }
+            set { type = value; }
+        }
+
+        public int FacultyId
+        {
+            get { return facultyId; }
+            set { facultyId = value; }
         }
     }
 

@@ -8,7 +8,7 @@ namespace Library.Data
 {
     public class BaseData
     {
-        public SqlConnection DatabaseConnection(string actionToPerform)
+        public SqlConnection DatabaseConnection(int actionToPerform)
         {
             string connectionString =
                 "Data Source=localhost;Integrated Security=True";
@@ -16,7 +16,7 @@ namespace Library.Data
 
             try
             {
-                if (actionToPerform.Equals("open"))
+                if (actionToPerform==1)
                 {
                     sqlConnection.Open();
                 }
