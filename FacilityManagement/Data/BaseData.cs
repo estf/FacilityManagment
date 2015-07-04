@@ -10,8 +10,8 @@ namespace Library.Data
     {
         public SqlConnection DatabaseConnection(int actionToPerform)
         {
-            string connectionString =
-                "Data Source=localhost;Integrated Security=True";
+           // string connectionString ="Data Source=localhost;Integrated Security=True";
+            string connectionString = @"Data Source=jhonn\sqlexpress;Initial Catalog=ProyecAll;Integrated Security=True";
             SqlConnection sqlConnection = new SqlConnection(connectionString);
 
             try

@@ -120,3 +120,9 @@ C:\Users\Juan\Desktop\FacilityManagment\FacilityManagement\bin\es\Microsoft.Owin
 C:\Users\Juan\Desktop\FacilityManagment\FacilityManagement\obj\Debug\FacilityManagement.csprojResolveAssemblyReference.cache
 C:\Users\Juan\Desktop\FacilityManagment\FacilityManagement\obj\Debug\FacilityManagement.dll
 C:\Users\Juan\Desktop\FacilityManagment\FacilityManagement\obj\Debug\FacilityManagement.pdb
+C:\Users\jcaldeon\Documents\GitHub\FacilityManagment\FacilityManagement\bin\FacilityManagement.dll.config
+C:\Users\jcaldeon\Documents\GitHub\FacilityManagment\FacilityManagement\bin\FacilityManagement.dll
+C:\Users\jcaldeon\Documents\GitHub\FacilityManagment\FacilityManagement\bin\FacilityManagement.pdb
+C:\Users\jcaldeon\Documents\GitHub\FacilityManagment\FacilityManagement\bin\Newtonsoft.Json.dll
+C:\Users\jcaldeon\Documents\GitHub\FacilityManagment\FacilityManagement\obj\Debug\FacilityManagement.dll
+C:\Users\jcaldeon\Documents\GitHub\FacilityManagment\FacilityManagement\obj\Debug\FacilityManagement.pdb
