@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FC2EE6A-3928-4082-973F-B2768038519A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectFacilityM</RootNamespace>
+    <AssemblyName>ProjectFacilityM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\EstudentHome.aspx" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.theme.css" />
+    <Content Include="css\owl.transitions.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="img\1786577.jpg" />
+    <Content Include="img\1_235555_1.jpg" />
+    <Content Include="img\5501-world-map-1680x1050-digital-art-wallpaper.jpg" />
+    <Content Include="img\6177817673_5ba53ffc2a_z.jpg" />
+    <Content Include="img\bg_direction_nav.png" />
+    <Content Include="img\blog1.jpg" />
+    <Content Include="img\blog10.jpg" />
+    <Content Include="img\blog1_min.jpg" />
+    <Content Include="img\blog2.jpg" />
+    <Content Include="img\blog2_min.jpg" />
+    <Content Include="img\blog3.jpg" />
+    <Content Include="img\blog3_min.jpg" />
+    <Content Include="img\blog4.jpg" />
+    <Content Include="img\blog4_min.jpg" />
+    <Content Include="img\blog5.jpg" />
+    <Content Include="img\blog5_min.jpg" />
+    <Content Include="img\blog6.jpg" />
+    <Content Include="img\blog7.jpg" />
+    <Content Include="img\blog8.jpg" />
+    <Content Include="img\blog9.jpg" />
+    <Content Include="img\blue-abstract-background - Copy.jpg" />
+    <Content Include="img\blue-abstract-background.jpg" />
+    <Content Include="img\care1.jpg" />
+    <Content Include="img\care2.jpg" />
+    <Content Include="img\care3.jpg" />
+    <Content Include="img\client1.jpg" />
+    <Content Include="img\client3.jpg" />
+    <Content Include="img\client4.jpg" />
+    <Content Include="img\clinic.jpg" />
+    <Content Include="img\Contact-Slashsquare.jpg" />
+    <Content Include="img\cute-newborn-baby-photos-closeup-faces-of-young-happy-mother-with-cute-newborn-baby-royalty.jpg" />
+    <Content Include="img\dental1.jpg" />
+    <Content Include="img\dental2.jpg" />
+    <Content Include="img\depositphotos_5458601-Mother-and-baby.jpg" />
+    <Content Include="img\diagnostic1.jpg" />
+    <Content Include="img\diagnostic2.jpg" />
+    <Content Include="img\doctor1.jpg" />
+    <Content Include="img\doctor2.jpg" />
+    <Content Include="img\doctor3.jpg" />
+    <Content Include="img\doctor4.jpg" />
+    <Content Include="img\doctor5.jpg" />
+    <Content Include="img\doctor6.jpg" />
+    <Content Include="img\doctors-img.jpg" />
+    <Content Include="img\donation1.jpg" />
+    <Content Include="img\donation2.jpg" />
+    <Content Include="img\donation3.JPG" />
+    <Content Include="img\donor1.jpg" />
+    <Content Include="img\donor2.jpg" />
+    <Content Include="img\donor3.jpg" />
+    <Content Include="img\gradient-blue-computer.jpg" />
+    <Content Include="img\images.jpg" />
+    <Content Include="img\join.png" />
+    <Content Include="img\or-bg.png" />
+    <Content Include="img\pharmacy1.jpg" />
+    <Content Include="img\pharmacy2.jpg" />
+    <Content Include="img\phone-icon.png" />
+    <Content Include="img\rehabilitation1.jpg" />
+    <Content Include="img\rehabilitation2.jpg" />
+    <Content Include="img\ridgeviewmedicalclinic.jpg" />
+    <Content Include="img\service1.jpg" />
+    <Content Include="img\service2.jpg" />
+    <Content Include="img\service3.jpg" />
+    <Content Include="img\service4.jpg" />
+    <Content Include="img\service5.jpg" />
+    <Content Include="img\service6.jpg" />
+    <Content Include="img\slider1.jpg" />
+    <Content Include="img\slider2.jpg" />
+    <Content Include="img\slider3.jpg" />
+    <Content Include="img\staff1.jpg" />
+    <Content Include="img\staff2.jpg" />
+    <Content Include="img\staff3.jpg" />
+    <Content Include="img\staff4.jpg" />
+    <Content Include="img\testimonial.jpg" />
+    <Content Include="img\title-bg.png" />
+    <Content Include="img\treatment1.jpg" />
+    <Content Include="img\treatment2.jpg" />
+    <Content Include="img\treatment3.jpg" />
+    <Content Include="img\treatment4.jpg" />
+    <Content Include="img\Untitled-1.jpg" />
+    <Content Include="img\Untitled-2.jpg" />
+    <Content Include="img\young-mother-two-daughters-playing-outdoors-12534007.jpg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\isotope.pkgd.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\EstudentHome.aspx.cs">
+      <DependentUpon>EstudentHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\EstudentHome.aspx.designer.cs">
+      <DependentUpon>EstudentHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Bussiness\UserBusiness.cs" />
+    <Compile Include="App_Bussiness\UserData.cs" />
+    <Compile Include="Data\BaseData.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3917</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3917/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

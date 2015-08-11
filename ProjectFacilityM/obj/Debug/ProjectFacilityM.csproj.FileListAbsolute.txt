@@ -1,0 +1,6 @@
+c:\users\jcaldeon\documents\visual studio 2013\Projects\ProjectFacilityM\ProjectFacilityM\bin\ProjectFacilityM.dll.config
+c:\users\jcaldeon\documents\visual studio 2013\Projects\ProjectFacilityM\ProjectFacilityM\bin\ProjectFacilityM.dll
+c:\users\jcaldeon\documents\visual studio 2013\Projects\ProjectFacilityM\ProjectFacilityM\bin\ProjectFacilityM.pdb
+c:\users\jcaldeon\documents\visual studio 2013\Projects\ProjectFacilityM\ProjectFacilityM\obj\Debug\ProjectFacilityM.dll
+c:\users\jcaldeon\documents\visual studio 2013\Projects\ProjectFacilityM\ProjectFacilityM\obj\Debug\ProjectFacilityM.pdb
+c:\users\jcaldeon\documents\visual studio 2013\Projects\ProjectFacilityM\ProjectFacilityM\obj\Debug\ProjectFacilityM.csprojResolveAssemblyReference.cache
